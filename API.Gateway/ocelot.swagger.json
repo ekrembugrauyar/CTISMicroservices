@@ -1,0 +1,28 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "Users",
+      "Config": [
+        {
+          "Name": "Users API",
+          "Version": "v1",
+          "Url": "https://localhost:7065/swagger/v1/swagger.json",
+          "TransformByOcelotConfig": false,
+          "RemoveUpstreamFromPath": false
+        }
+      ]
+    },
+    {
+      "Key": "Books",
+      "Config": [
+        {
+          "Name": "Books API",
+          "Version": "v1",
+          "Url": "https://localhost:7230/swagger/v1/swagger.json",
+          "TransformByOcelotConfig": false,
+          "RemoveUpstreamFromPath": false
+        }
+      ]
+    }
+  ]
+}
